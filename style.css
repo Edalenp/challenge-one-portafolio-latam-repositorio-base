@@ -1,11 +1,12 @@
-:root {    
-    --color-fuente: #F5F5F5;
-    --color-enlace: #000;
+:root {
+    --color-fuente: #464646;   
+    --color-fondo: #F5F5F5;
  }
  
  body {
      box-sizing: border-box;
-     background-color: var(--color-fuente);
+     background-color: var(--color-fondo);
+     color: var(--color-fuente);
      font-family: 'Raleway';
      margin: 0;
      padding: 0;
@@ -18,7 +19,7 @@
  
  a {
      text-decoration: none;
-     color: var(--color-enlace);
+     color: var(--color-fuente);
  }
  
  
@@ -27,6 +28,7 @@
  .menu {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
  }
 
  .menu__encabezado {
@@ -37,13 +39,36 @@
 
  .menu__lista {
     display: flex;
-    gap: 35px;
+    gap: 32px;
  }
  
  
  /* Sección de Título */
  
+ .titulo__contenedor {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    width: 1136px;
+    height: 368px;
+ }
  
+ .titulo__bio {
+    font-size: 52px;
+ }
+
+ .titulo__subseccion {
+    font-size: 22px;
+    font-weight: 400;
+ }
+
+ .titulo__redes {
+    display: flex;
+    margin: 0 -40px;
+    gap: 32px;
+    width: 467px;
+    height: 24px;
+ }
  
  /* Sección Sobre Mí */
  
