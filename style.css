@@ -24,6 +24,21 @@
  
  /* Sección de Menú */
  
+ .menu {
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .menu__encabezado {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+ .menu__lista {
+    display: flex;
+    gap: 35px;
+ }
  
  
  /* Sección de Título */
