@@ -115,7 +115,23 @@
 
  /* Sección de Pasatiempos */
  
- 
+ .pasatiempos__titulo {
+   text-align: center;
+   font-size: 28px;
+ }
+
+ .pasatiempos__linea {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+ }
+
+ .pasatiempos__img {
+   display: flex;
+   justify-content: center;
+   margin: 10px 0;
+ }
  
  /* Sección de Formación Académica */
  
