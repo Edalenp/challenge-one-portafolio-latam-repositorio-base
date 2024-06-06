@@ -72,8 +72,13 @@
  
  /* Sección Sobre Mí */
  
- 
- 
+ .sobre-mi {
+   display: flex;
+   margin: 0 auto;
+   width: 1136px;
+   height: 368px;
+ }
+
  /* Sección de Pasatiempos */
  
  
