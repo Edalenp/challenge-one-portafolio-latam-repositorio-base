@@ -93,6 +93,26 @@
    width: 600px;
  }
 
+ /* Sección de habilidades */
+ 
+ .habilidades__titulo {
+   text-align: center;
+   font-size: 28px;
+ }
+
+ .habilidades__linea {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+ }
+
+ .habilidades__img {
+   display: flex;
+   justify-content: center;
+   margin: 10px 0;
+ }
+
  /* Sección de Pasatiempos */
  
  
