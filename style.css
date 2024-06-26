@@ -153,29 +153,37 @@
  
  /* Proyectos */
 
-  .experiencia {
+ .experiencia {
     background-color: #A7D6A7;
     margin-top: 100px;
     padding: 10px;
-  }
+ }
  
  .experiencia__titulo__seccion {
     text-align: center;
     font-size: 28px;
     margin-bottom: 50px;
-  }
+ }
 
-  .proyectos_caja {
+ .proyectos_caja {
     display: flex;
     justify-content: center;
     align-items: center; 
     gap: 100px;
     flex-wrap: wrap;
-  }
+ }
+
+ .experiencia__caja:nth-child(2) {
+   margin-bottom: 20px;
+ }
  
  /* Pie de Página */
- 
- 
+
+ .pie-de-pagina__footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
  
  /* Media Queries */ 
  
