@@ -73,68 +73,71 @@
  /* Sección Sobre Mí */
  
  .sobre-mi {
-   background-color: aliceblue;
-   display: flex;
-   margin: 40px auto;
-   height: 368px;
+    background-color: aliceblue;
+    display: flex;
+    margin: 40px auto;
+    height: 368px;
  }
 
  .sobre-mi__contenedor {
-   margin: 40px auto;
-   width: 75%;
-   height: 368px;
+    margin: 40px auto;
+    width: 75%;
+    height: 368px;
  }
 
  .sobre-mi__titulo {
-   font-size: 36px;
+    font-size: 36px;
  }
 
  .sobre-mi__parrafo {
-   width: 600px;
+    width: 600px;
  }
 
  /* Sección de habilidades */
  
  .habilidades__titulo {
-   text-align: center;
-   font-size: 28px;
+    text-align: center;
+    font-size: 28px;
  }
 
  .habilidades__linea {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
  }
 
  .habilidades__img {
-   display: flex;
-   justify-content: center;
-   margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
  }
 
  /* Sección de Pasatiempos */
  
  .pasatiempos__titulo {
-   text-align: center;
-   font-size: 28px;
+    text-align: center;
+    font-size: 28px;
  }
 
  .pasatiempos__linea {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
  }
 
  .pasatiempos__img {
-   display: flex;
-   justify-content: center;
-   margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
  }
  
  /* Sección de Formación Académica */
  
+ .formacion__titulo {
+  
+ }
  
  
  /* Experiencia */
