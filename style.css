@@ -151,10 +151,27 @@
  }
  
  
- /* Experiencia */
+ /* Proyectos */
+
+  .experiencia {
+    background-color: #A7D6A7;
+    margin-top: 100px;
+    padding: 10px;
+  }
  
- 
- 
+ .experiencia__titulo__seccion {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+
+  .proyectos_caja {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 100px;
+    flex-wrap: wrap;
+  }
  
  /* Pie de Página */
  
