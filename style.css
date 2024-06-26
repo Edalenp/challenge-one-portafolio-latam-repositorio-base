@@ -136,7 +136,8 @@
  /* Sección de Formación Académica */
  
  .formacion__titulo {
-  
+    text-align: center;
+    font-size: 20px;
  }
  
  
